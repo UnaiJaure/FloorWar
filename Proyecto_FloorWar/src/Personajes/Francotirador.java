@@ -4,7 +4,9 @@ package Personajes;
  */
 public class Francotirador {
 
+
 	/** Constructor de Francotirador.
 	 *
 	 */
+
 }
