@@ -4,4 +4,7 @@ package Personajes;
  */
 public class Ingeniero extends Soldado{
 
+	/** Constructor de Ingeniero.
+	 *
+	 */
 }

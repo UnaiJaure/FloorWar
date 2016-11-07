@@ -4,4 +4,7 @@ package Personajes;
  */
 public class MMaloso extends Soldado{
 
+	/** Constructor de MMaloso.
+	 *
+	 */
 }
