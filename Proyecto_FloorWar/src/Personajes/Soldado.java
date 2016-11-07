@@ -2,5 +2,8 @@ package Personajes;
 
 public class Soldado {
 
-	private 
+	protected static String nombre;
+	protected static int hp;
+	
+	
 }
