@@ -5,6 +5,8 @@ package Personajes;
  */
 public class Medico extends Soldado{
 
-
+	/** Constructor de Medico.
+	 *
+	 */
 	
 }
