@@ -1,7 +1,14 @@
 package Personajes;
 
-public class Soldado {
+/** Clase abstracta que modela los elementos  de Soldado. Tiene nombre y vida.
+ * @author Unai Jauregibeitia y Miker Colmenares
+ */
+public abstract class Soldado {
 
+	/** Constructor de Soldado.
+	 * @param nombre	Nombre(nombre)
+	 * @param vida	NumericoEntero(hp)
+	 */
 	protected static String nombre;
 	protected static int hp;
 	
