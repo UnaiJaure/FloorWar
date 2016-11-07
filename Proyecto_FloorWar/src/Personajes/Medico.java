@@ -8,5 +8,14 @@ public class Medico extends Soldado{
 	/** Constructor de Medico.
 	 *
 	 */
+	int porcentaje_curacion;
+
+	public int getPorcentaje_curacion() {
+		return porcentaje_curacion;
+	}
+
+	public void setPorcentaje_curacion(int porcentaje_curacion) {
+		this.porcentaje_curacion = porcentaje_curacion;
+	}
 	
 }

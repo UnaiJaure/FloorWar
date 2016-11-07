@@ -3,5 +3,14 @@ package Personajes;
  * @author Unai Jauregibeitia y Miker Colmenares
  */
 public class Ingeniero extends Soldado{
+	int NGranadas;
 
+	public int getNGranadas() {
+		return NGranadas;
+	}
+
+	public void setNGranadas(int nGranadas) {
+		NGranadas = nGranadas;
+	}
+	
 }

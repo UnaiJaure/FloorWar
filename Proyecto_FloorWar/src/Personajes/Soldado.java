@@ -11,7 +11,8 @@ public abstract class Soldado {
 	 */
 	protected static String nombre;
 	protected static int hp;
-	
+	int porcentaje_acierto=85;
+
 	public Soldado(){}
 	
 	public Soldado(String nombre, int hp){
