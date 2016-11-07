@@ -4,7 +4,7 @@ package Personajes;
  * @author Unai Jauregibeitia y Miker Colmenares
  */
 public abstract class Soldado {
-
+	
 	/** Constructor de Soldado.
 	 * @param nombre	Nombre(nombre)
 	 * @param vida	NumericoEntero(hp)

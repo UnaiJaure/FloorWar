@@ -4,7 +4,7 @@ package Personajes;
  * @author Unai Jauregibeitia y Miker Colmenares
  */
 public class Medico extends Soldado{
-/*slfjgnkosdjgf*/
+/*jodete*/
 
 	
 }
