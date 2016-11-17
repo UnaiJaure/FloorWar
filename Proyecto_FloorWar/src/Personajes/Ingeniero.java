@@ -1,6 +1,6 @@
 package Personajes;
 /**Clase para instanciar elementos de Soldado de tipo Ingeniero
- * @author Unai Jauregibeitia y Miker Colmenares
+ * @author Unai Jauregibeitia y Mikel Colmenares
  */
 public class Ingeniero extends Soldado{
 	int NGranadas;

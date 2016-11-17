@@ -1,7 +1,7 @@
 package Personajes;
 
 /**Clase para instanciar elementos de Soldado de tipo Medico
- * @author Unai Jauregibeitia y Miker Colmenares
+ * @author Unai Jauregibeitia y Mikel Colmenares
  */
 public class Medico extends Soldado{
 

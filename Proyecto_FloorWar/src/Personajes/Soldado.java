@@ -1,7 +1,7 @@
 package Personajes;
 
 /** Clase abstracta que modela los elementos  de Soldado. Tiene nombre y vida.
- * @author Unai Jauregibeitia y Miker Colmenares
+ * @author Unai Jauregibeitia y Mikel Colmenares
  */
 public abstract class Soldado {
 	
