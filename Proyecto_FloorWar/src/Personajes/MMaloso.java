@@ -4,7 +4,13 @@ package Personajes;
  */
 public class MMaloso extends Soldado{
 
+	public MMaloso(String nombre, int hp) {
+		super(nombre, hp, porcentaje_acierto);
+		// TODO Auto-generated constructor stub
+	}
+
 	/** Constructor de MMaloso.
 	 *
 	 */
+	
 }

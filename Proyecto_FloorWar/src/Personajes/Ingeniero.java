@@ -6,6 +6,11 @@ public class Ingeniero extends Soldado{
 	int NGranadas;
 
 
+	public Ingeniero(String nombre, int hp, int nGranadas) {
+		super(nombre, hp, porcentaje_acierto);
+		NGranadas = nGranadas;
+	}
+	
 	/** Constructor de Ingeniero.
 	 *
 	 */

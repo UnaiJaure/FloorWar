@@ -11,13 +11,14 @@ public abstract class Soldado {
 	 */
 	protected static String nombre;
 	protected static int hp;
-	int porcentaje_acierto=85;
+	protected static double porcentaje_acierto=85;
 
 	public Soldado(){}
 	
-	public Soldado(String nombre, int hp){
+	public Soldado(String nombre, int hp, double porcentaje_acierto){
 		this.nombre = nombre;
 		this.hp = hp;
+		this.porcentaje_acierto = porcentaje_acierto;
 	}
 
 	public static String getNombre() {
@@ -34,6 +35,14 @@ public abstract class Soldado {
 
 	public static void setHp(int hp) {
 		Soldado.hp = hp;
+	}
+
+	public double getPorcentaje_acierto() {
+		return porcentaje_acierto;
+	}
+
+	public void setPorcentaje_acierto(double porcentaje_acierto) {
+		this.porcentaje_acierto = porcentaje_acierto;
 	}
 	
 	

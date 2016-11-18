@@ -8,13 +8,15 @@ public class Medico extends Soldado{
 	/** Constructor de Medico.
 	 *
 	 */
+	
+	
 
-	private Medico(String nombre, int hp){
-		this.nombre = nombre;
-		this.hp = hp;
+	int porcentaje_curacion=60;
+
+	public Medico(String nombre, int hp) {
+		super(nombre, hp, porcentaje_acierto);
+		this.porcentaje_curacion = porcentaje_curacion;
 	}
-
-	int porcentaje_curacion;
 
 	public int getPorcentaje_curacion() {
 		return porcentaje_curacion;
