@@ -40,4 +40,15 @@ public class JLabelHabitacion extends JFrame{
 		//System.out.println( "Mostrado " + v.resolverTableroDesdeFila( v.habitacion, 0 ) );
 	}
 	
+	
+	
+	//TODO
+	//Hacer capas para meter lo grafico:
+	//1ªLa base de la habitacion
+	//2ªEstablecer mesas y objetos de covertura
+	//3ªVentana que salte para batalla
+	//Última, cambiar a capa frontal, para inicar el menu [cristal.setOpaque(false);]
+	
+	
+	//Transparencia relativa: poner una capa parcialmente transparente, poner una capa de color meido opaca; en vez de poner RGB, se usa RG(alpha)
 }
