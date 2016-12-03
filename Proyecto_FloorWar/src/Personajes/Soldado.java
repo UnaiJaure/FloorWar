@@ -10,7 +10,7 @@ public abstract class Soldado {
 	 * @param vida	NumericoEntero(hp)
 	 */
 	protected static String nombre;
-	protected static int hp;
+	public static int hp;
 	protected static double porcentaje_acierto=85;
 
 	public Soldado(){}

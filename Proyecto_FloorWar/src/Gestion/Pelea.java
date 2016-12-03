@@ -18,11 +18,38 @@ public class Pelea {
 			MMaloso mm = new MMaloso("Fungecio",100);*/
 		}
 		
-		public int ataque(){
-			return 0;
+		public int francdañado(int daño){
+			franco.hp=franco.hp-daño;
+			if(franco.hp<=0){
+				
+			}
+			return franco.hp;
 			
 		}
 		
-		
+		public int ingenierodañado(int daño){
+			ing.hp=ing.hp-daño;
+			if(ing.hp<=0){
+				
+			}
+			return ing.hp;
+			
+		}
+		public int medicodañado(int daño){
+			med.hp=med.hp-daño;
+			if(franco.hp<=0){
+				
+			}
+			return med.hp;
+			
+		}
+		public int MMalosdañado(int daño){
+			mm.hp=mm.hp-daño;
+			if(mm.hp<=0){
+				
+			}
+			return mm.hp;
+			
+		}
 		
 	}

@@ -11,7 +11,7 @@ import java.awt.*;
 public class JLabelHabitacion extends JFrame{
 	// Una habiacion con una dimension de 32 x 24 posiciones
 	// Los hemos puesto impares, para que pueda tener un centro de una unica posicion
-	JLabel[][] habitacion = new JLabel[33][25];
+	static JLabel[][] habitacion = new JLabel[33][25];
 	JLabel MM = new JLabel();
 	
 	public JLabelHabitacion(){
@@ -37,6 +37,8 @@ public class JLabelHabitacion extends JFrame{
 	public static void main(String[] args) {
 		JLabelHabitacion v = new JLabelHabitacion();
 		v.setVisible( true );
+		
+		
 		//System.out.println( "Mostrado " + v.resolverTableroDesdeFila( v.habitacion, 0 ) );
 	}
 	
