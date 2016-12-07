@@ -60,7 +60,7 @@ public class JLabelPersonaje extends JLabel {
 	@Override
 	protected void paintComponent(Graphics g) {
 		Image img = ((ImageIcon)getIcon()).getImage();
-		Graphics2D g2 = (Graphics2D) g;
+		Graphics2D g2 = (Graphics2D) g; //Pinta de una dimension a otra dimension
 		g2.setRenderingHint(RenderingHints.KEY_INTERPOLATION, RenderingHints.VALUE_INTERPOLATION_BILINEAR);
 		g2.setRenderingHint(RenderingHints.KEY_RENDERING, RenderingHints.VALUE_RENDER_QUALITY);
 		g2.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
