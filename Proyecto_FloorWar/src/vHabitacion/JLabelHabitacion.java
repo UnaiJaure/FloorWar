@@ -43,8 +43,11 @@ public class JLabelHabitacion extends JFrame{
 	
 	public static void main(String[] args) {
 		JLabelHabitacion v = new JLabelHabitacion();
+		VentanaPelea vp = new VentanaPelea();
 		v.setVisible( true );
-		
+		//while(){
+			vp.setVisible( true );
+		//}
 		
 		//System.out.println( "Mostrado " + v.resolverTableroDesdeFila( v.habitacion, 0 ) );
 	}
