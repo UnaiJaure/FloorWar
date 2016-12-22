@@ -10,23 +10,23 @@ public class MiMuñeco {
 	public MiMuñeco(int entrada){
 		switch(entrada){
 			case 1: //Entrada superior
-				this.posx = 16;
+				this.posx = 12;
 				this.posy = 0;
 				this.miDireccionActual= 0;
 				break;
 			case 2: //Entrada derecha
-				this.posx = 32;
-				this.posy = 12;
+				this.posx = 24;
+				this.posy = 16;
 				this.miDireccionActual= 0;
 				break;
 			case 3: //Entrada inferior
-				this.posx = 16;
-				this.posy = 24;
+				this.posx = 12;
+				this.posy = 32;
 				this.miDireccionActual= 0;
 				break;
 			case 4: //Entrada izquierda
 				this.posx = 0;
-				this.posy = 12;
+				this.posy = 16;
 				this.miDireccionActual= 0;
 				break;
 		}
